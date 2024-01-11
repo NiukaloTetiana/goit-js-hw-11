@@ -32,25 +32,27 @@ a {
   margin-bottom: 40px;
 }
 
-input:focus {
-  color: #3fb5af;
-  border: 4px solid #3fb5af;
-}
-
 input {
   height: 40px;
   flex-grow: 1;
   font-size: 15px;
   padding-left: 15px;
-  border: 1px solid #4fb53f;
+  border: 2px solid #4fb53f;
   font-size: 18px;
   flex-grow: 1;
   height: 40px;
   padding-left: 15px;
   border-radius: 8px;
-  color: #e21973;
+  text-shadow: 1px 1px 1px #642c2c;
   background-color: transparent;
   outline: none;
+}
+
+input:focus {
+  color: #3fb5af;
+  text-shadow: 1px 1px 1px #642c2c;
+  border: 2px solid #3fb5af;
+  background-color: #fff;
 }
 
 button:hover,
@@ -76,7 +78,6 @@ button {
   display: flex;
   text-shadow: #ffff 1px 0 4px;
   align-items: center;
-  text-shadow: #ffff 1px 0 4px;
 }
 .load-more {
   display: block;
